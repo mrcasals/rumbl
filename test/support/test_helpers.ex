@@ -1,5 +1,5 @@
 defmodule Rumbl.TestHelpers do
-  alias Ruml.Repo
+  alias Rumbl.Repo
 
   def insert_user(attrs \\ {}) do
     changes = Dict.merge(%{
